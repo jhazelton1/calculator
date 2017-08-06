@@ -7,29 +7,30 @@
 </head>
 <body>
     <div class="calculatorPanel">
+        <div class="inputOutput" id="inputOutput">0</div>
         <div class="row" id="row1">
-            <div class="button" id="button7">7</div>
-            <div class="button" id="button8">8</div>
-            <div class="button" id="button9">9</div>
-            <div class="button operator" id="button+">+</div>
+            <div class="button" id="button7" onclick="replyClick(this.id)">7</div>
+            <div class="button" id="button8" onclick="replyClick(this.id)">8</div>
+            <div class="button" id="button9" onclick="replyClick(this.id)">9</div>
+            <div class="button operator" id="add" onclick="replyClick(this.id)">+</div>
         </div>
         <div class="row" id="row2">
-            <div class="button" id="button4">4</div>
-            <div class="button" id="button5">5</div>
-            <div class="button" id="button6">6</div>
-            <div class="button operator" id="button-">-</div>
+            <div class="button" id="button4" onclick="replyClick(this.id)">4</div>
+            <div class="button" id="button5" onclick="replyClick(this.id)">5</div>
+            <div class="button" id="button6" onclick="replyClick(this.id)">6</div>
+            <div class="button operator" id="subtract" onclick="replyClick(this.id)">-</div>
         </div>
         <div class="row" id="row3">
-            <div class="button" id="button1">1</div>
-            <div class="button" id="button2">2</div>
-            <div class="button" id="button3">3</div>
-            <div class="button operator" id="button*">*</div>
+            <div class="button" id="button1" onclick="replyClick(this.id)">1</div>
+            <div class="button" id="button2" onclick="replyClick(this.id)">2</div>
+            <div class="button" id="button3" onclick="replyClick(this.id)">3</div>
+            <div class="button operator" id="multiply" onclick="replyClick(this.id)">*</div>
         </div>
         <div class="row" id="row4">
-            <div class="button" id="button0">0</div>
-            <div class="button operator" id="button.">.</div>
-            <div class="button operator" id="button=">=</div>
-            <div class="button operator" id="button/">/</div>
+            <div class="button" id="button0" onclick="replyClick(this.id)">0</div>
+            <div class="button operator" id="button." onclick="replyClick(this.id)">.</div>
+            <div class="button operator" id="equals" onclick="replyClick(this.id)">=</div>
+            <div class="button operator" id="divide" onclick="replyClick(this.id)">/</div>
         </div>
     </div>
     <script src="js/calculator.js"></script>
